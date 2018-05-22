@@ -63,7 +63,7 @@
             Exit Sub
         End If
 
-        Select mes
+        Select Case mes
 
             Case 1, 3, 5, 7, 8, 10, 12
                 If dia < 1 Or dia > 31 Then
